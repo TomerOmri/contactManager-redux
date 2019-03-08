@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import Contact from './Contact';
 import { connect } from 'react-redux';
-import { GET_CONTACTS } from "../../actions/types";
 import { getContacts } from "../../actions/contactActions";
 
 class Contacts extends Component {
